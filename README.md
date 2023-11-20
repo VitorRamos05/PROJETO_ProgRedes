@@ -1,7 +1,9 @@
 PROJETO - Aplicação Cliente/Servidor usando BOT no Telegram.
 
 Tipo de Protocolo:
+
   -> TCP
+  
 Motivo da escolha do protocolo:
   
   -> Foi escolhido o protocolo TCP por ele ser um protocolo de transporte confiável, o que significa 
@@ -18,10 +20,17 @@ Motivo da escolha do protocolo:
 Lista de Comandos que o Bot estará executando:
 
   -> help: Retorna uma mensagem de ajuda, como um breve texto sobre o que o bot pode fazer e uma lista de comandos;
+  
   -> history: Retorna o historico de navegação;
+  
   -> conf: Retorna as opções de configuração;
+  
   -> start: Inicia a interação com o usuário;
+  
   -> connect: Conecta-se ao servidor;
+  
   -> disconnect: Desconecta-se do servidor;
+  
   -> pause: Pausa a comunicação com o servidor;
+  
   -> resume: retoma a comunicação com o servidor.
